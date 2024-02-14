@@ -1,0 +1,16 @@
+a { 
+    color: #506574;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2a3741;
+}
+
+a svg {
+    font-size: 1.8rem;
+}
+
+.project:hover {
+    filter: brightness(.9)
+}

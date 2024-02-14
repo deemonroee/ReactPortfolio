@@ -1,0 +1,43 @@
+.resume {
+    position: relative;
+}
+
+.resume .list-group-item:nth-child(odd) {
+    background-color: #f6f6f7;
+}
+
+.resume .list-group-item {
+    color: #506574;
+    padding: .8rem 1.5rem;
+}
+
+.resume .card {
+    border: none;
+}
+
+.resume a {
+    position:absolute;
+    bottom: 0;
+    color: white;
+    background-color: #506574;
+    border: none;
+    padding: .5rem 1rem;
+}
+
+.resume a:hover {
+    color: white;
+    background-color: #3c4d58;
+}
+
+@media screen and (max-width: 767px) {
+    .resume a {
+        top: 1rem;
+        right: .8rem;
+        bottom: unset;
+        padding: .1rem ;
+    }
+
+    .resume a svg {
+        font-size: 1.5rem;
+    }
+}
